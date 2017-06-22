@@ -1,0 +1,1776 @@
+@media(max-width:74.875em){
+    .navbar-header {
+        float: none;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-nav {
+        float: none!important;
+        margin: 7.5px -15px;
+    }
+    .navbar-nav>li {
+        float: none;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .navbar-text {
+        float: none;
+        margin: 15px 0;
+    }
+    /* since 3.1.0 */
+    .navbar-collapse.collapse.in { 
+        display: block!important;
+    }
+    .collapsing {
+        overflow: hidden!important;
+    }
+}
+
+
+
+*{
+    border: 0px dotted;
+}
+
+.btn{
+    background-color: darkred;
+    color: #fff;
+    font-family: nexaBold;
+}
+
+
+
+@media(min-width:1em){
+    
+    /*UNIVERSAL CODE*/
+    
+    .modal-body a{
+        color: #222;
+        font-weight: 700;
+        text-decoration: underline;
+    }
+    
+    body{
+        width:100%;
+        height: auto;
+        margin: 0px;
+         background: url("img/white-brick-wall-texture-1198536.jpg");
+        background-size: 100%;
+        
+    }
+    
+    .modal-title{
+        font-family: nexaBold;
+    }
+    
+    .nav-tabs li a{
+        background-color: darkslategray!important;
+        color: #fff !important;
+        font-family: nexaBold;
+    }
+    
+    @font-face{
+        font-family: nexaLight;
+        src: url("fonts/Nexa-Light.otf"); 
+    }
+    
+    @font-face{
+        font-family: nexaBold;
+        src: url("fonts/Nexa-Bold.otf"); 
+    }
+    
+    h1, h2, h3, h4, h5{
+        font-family: nexaLight;
+        text-align: center;
+        line-height: 1.4;
+    }
+    
+    p, ul, ol{
+        font-family: nexaLight, sans-serif;
+        
+        list-style-position: outside;
+    }
+    
+    .content-home p:first-child{
+        text-align: center;
+    }
+    
+    .content-about p:first-child{
+        text-align: center;
+    }
+    
+    li{
+        font-family: nexaLight, sans-serif;
+        text-align: left;
+        
+    }
+    
+    .footer p{
+        text-align: center;
+    }
+    
+    .form-group p{
+        text-align: center;
+    }
+    
+    .smallx2{
+        width: 40%;
+        box-shadow: 0px 0px 20px black;
+        border-color: #f2f2f2;
+    }
+    
+    .headerimage h3{
+        margin-top: 70px;
+        font-family: nexaBold;
+    }
+    
+  
+    
+    .navbar{
+        background-color: #b7b4b0;
+        width: 100%;
+        border-radius: 0em;
+        border-bottom: 0px solid  #1C75BC ;
+        
+        
+    }
+    
+     .active2 > a{
+        border-bottom: 2px solid #fff;
+        font-family: nexaBold;
+        color: #fff;
+
+    }
+    
+    a{
+        color: #fff;
+    }
+
+    .navbar-nav{
+        text-align: center;
+        font-weight: bolder;
+        text-transform: uppercase;
+    }
+    
+    .navbar-nav li a:hover{
+        color: #fff;
+        background-color: transparent;
+        border-bottom: 0px solid  #fff;
+        text-align: center;
+        transition:  all .5s;
+    }
+    
+    .navbar-nav li a{
+        color: whitesmoke;
+        background-color: transparent;
+        border-bottom: 0px solid  #fff;
+        text-align: center;
+        transition: .5s;
+    }
+    
+    .navbar-nav li a:active{
+        color: #fff;
+        background-color: black;
+        border-bottom: 0px solid #222;
+        text-align: center;
+        transition: .5s;
+    }
+    
+   
+    
+    .icon-bar{
+        background-color: #222;
+    }
+    
+    .footer{
+        padding-top: 50px;
+        border-top: 0px solid  #222;
+        border-radius: 0.1em;
+        width: 100%;
+        margin-top: 90px;
+        background-color: #c7c4bf;
+        box-shadow: 0px 0px 10px #222;
+        color: #222;
+    }
+    
+    /*UNIVERSAL CODE*/
+    
+    /*HOME PAGE CODE*/
+    
+    .headerimage{
+        background: url(img/house-series-1-1562650%20copy%202.jpg);
+        
+        opacity: 1;
+      margin-left: 0px;
+        padding-bottom: 90px;
+      width:100%;
+        margin-top: -70px;
+        background-size: 105% 115%;
+        position:relative;
+      z-index:-20;
+    }
+    
+    .backshape .wrapper2 {
+      display:block;
+      float:left;
+      margin:50px auto 200px;
+      width:100%;
+      padding:0 5%;
+      transform:skew(0deg,-5deg);
+    -ms-transform:skew(0deg,-10deg);
+    -webkit-transform:skew(0deg,10deg); 
+    -moz-transform:skew(0deg,-10deg); 
+    }
+    
+    .product {
+      float:left;
+      width:29%;
+      min-height:200px;
+      background:blue;
+      margin:2%;
+      transform:skew(0deg,-5deg);
+    -ms-transform:skew(0deg,-10deg); /* IE 9 */
+    -webkit-transform:skew(0deg,0deg); /* Safari and Chrome */
+    -moz-transform:skew(0deg,0deg); /* Safari and Chrome */
+    }
+    
+    .backshape {
+      z-index:1;
+      display:block;
+      float:left;
+      margin-top:-70px;
+      width:100%;
+        height: auto;
+      background:#fff;
+      transform:skew(0deg,10deg);
+    -ms-transform:skew(0deg,10deg); /* IE 9 */
+    -webkit-transform:skew(0deg,-10deg); /* Safari and Chrome */
+    -moz-transform:skew(0deg,10deg); /* Safari and Chrome */
+        
+        box-shadow: 0px 10px 20px;
+    }
+    
+    .bshape-2{
+        background-color: #fff;
+        margin-top: -50px;
+    }
+    
+    .bshape-3{
+        margin-top: -50px;
+        margin-bottom: 60px;
+        height: 45em;
+    }
+    
+    .footer2 {
+      z-index:2;
+      margin-top:-4em;
+      position:relative;
+      width:100%;
+      display:block;
+      float:left;
+    }
+    
+    .footer .wrapper2 {
+      height:150px;
+      background:green;
+    }
+    
+    /*SLANT DESIGN CODE*/
+    
+    .logo-main{
+        width: 90%;
+        margin: auto;
+        color: #fff;
+    }
+    
+    .logo-main img{
+        width: 100%;
+        margin-top: 10px;
+        margin-left: -50px;
+    }
+    
+    .logo-main h4{
+        position: relative;
+        top: -105px;
+        font-family:nexaBold;
+        left: -20px;
+        width: 70%;
+        color: #222;
+    }
+    
+    .capital{
+        text-transform: capitalize;
+    }
+    
+    .content-home h3{
+        text-transform:capitalize;
+        font-family: nexaBold;
+    }  
+    
+    .content-about h3{
+        
+        font-family: nexaBold;
+    }
+    
+    .bs01{
+        margin-top: -98px;
+        color: #222;
+        height: 79em;
+    }
+    
+    .ch01{
+        color: #222;
+        margin-top: 90px;
+    }
+    
+    .tabs{
+        width: 100%;
+    }
+    
+    
+    .nav-tabs li{
+        margin-bottom: 20px;
+        width: 100%;
+        font-weight: bolder;
+        font-size: 0.9em;
+        text-align: left;
+        text-align: left;
+    }
+    .nav-tabs li > a{
+        background-color: #f2f2f2;
+        color: #222;
+    }
+    
+    .bs02{
+        margin-top: 0.1px;
+        height: 30em;
+    }
+    
+    .bs03{
+        margin-top: 0.1px;
+        background-color: #c7c4bf;
+        height: 36.5em;
+        color: #222;
+    }
+    
+    .ch02 p:first-child{
+        font-size: 2.5em;
+        margin-top: -20px;
+    }
+    
+    .ch03 p:first-child{
+        font-size: 2.5em;
+        margin-top: -20px;
+    }
+    
+    .ch03 a{
+        color: #222;
+        text-decoration: underline;
+    }
+    
+    .ch04 p:first-child{
+        font-size: 2.5em;
+        margin-top: -20px;
+    }
+    
+    .ch04 a{
+        color: #222;
+        text-decoration: underline;
+    }
+    
+    .bs04{
+        margin-top: 0.1px;
+        height: 38.5em;
+    }
+    
+    /*ABOUT US PAGE CODE*/
+    
+    .navAbout{
+        position: relative;
+        z-index: 4;
+    }
+    
+    .headerimage-ab{
+        background: url(img/urban-concret-1191619%20copy.jpg);
+        background-size: 100%;
+        padding-top: 60px;
+        margin-top: -70px;
+        height: 210px;
+    }
+    
+    .bs01-ab{
+        margin-top: -68px;
+        color: #fff;
+        height: 33em;
+        background-color: #c7c4bf;
+    }
+    
+    .ca01{
+        margin-top: 20px;
+    }
+    
+    .ca02{
+        margin-top: 70px;
+    }
+    
+    .bs02-ab{
+        margin-top: 0.1px;
+         height: 48em;
+    }
+    
+    .ca04{
+        margin-top: 20px;
+    }
+    
+    .bs03-ab{
+        margin-top: 0.1px;
+        background: url(img/puzzles-1515717%20copy.jpg);
+        background-size: 100%;
+        background-position: center;
+        height: 10em;
+        color: #fff;
+    }
+    
+    .ca01 p:first-child{
+        font-size: 2.5em;
+        margin-top: -50px;
+    }
+    
+    .ca02 p:first-child{
+        font-size: 2.5em;
+        margin-top: -50px;
+    }
+    
+    .ca03 p:first-child{
+        font-size: 2.5em;
+        margin-top: -20px;
+    }
+    
+    .ca04 p:first-child{
+        font-size: 2.5em;
+        margin-top: 0px;
+    }
+    
+    .ca06 p:first-child{
+        font-size: 2.5em;
+        margin-top: -35px;
+    }
+    
+    .ca07 p:first-child{
+        font-size: 2.5em;
+        margin-top: -35px;
+    }
+    
+    .bs04-ab{
+        margin-top: 0.1px;
+        height: 51em;
+        background-color: #c7c4bf;
+        color: #fff;
+    }
+    
+    .ca07{
+         margin-top: 60px;
+    }
+    
+    
+    
+    /*FAQ PAGE CODE*/
+    
+    .headerFix{
+        position: relative;
+        top: 30px;
+        color: #fff;
+        font-family: nexaBold;
+    }
+    
+    .headerFix-faq{
+        position: relative;
+        top: 100px;
+        color: #222;
+    }
+    
+    @-moz-document url-prefix() { 
+    .headerFix{
+        position: relative;
+        top: 50px;
+    }
+        
+    .headerFix-faq{
+        position: relative;
+        top: 100px;
+        color: #222;
+    }
+    
+    }
+    
+    .faq{
+        background-color: #fff;
+    }
+    
+    .btn-question{
+        margin-left: -4px;
+        border-bottom: 0px solid #1C75BC;;
+        border-width: 0px;
+        width: 100%;
+        margin-top: 20px;
+        background-color: #fff;
+        font-family: nexaBold !important;
+    }
+    
+    .btn-question h3{
+        font-size: 1.1em;
+        color: #222;
+        font-weight: bold;
+        
+    }
+    
+    .answerBox{
+        min-height: 20px;
+        padding: 19px;
+        color: ;
+        width: 80%;
+        
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+        background-color: transparent;
+        border-bottom: 1px solid #e3e3e3;
+        border-radius: 4px;
+        -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .05);
+            box-shadow: inset 0 1px 1px rgba(0, 0, 0, .05);
+    }
+    
+    .headerimage-faq{
+        background:url("img/photo-1463130456064-77fda7f96d6b.jpeg");
+        background-size: 100% 100%;
+        height: 250px;
+        margin-top: -91px;
+    }
+    
+    /*FAQ PAGE CODE*/
+    
+    /*SOLUTION PAGE CODE*/
+    
+    .headerimage-sol{
+         background:url("img/photo-1424298397478-4bd87a6a0f0c.jpeg");
+        background-size: 100% 200%;
+        background-position: -0px -460px;
+        height: 200px;
+        margin-top: -91px;
+    }
+    
+    .cs01{
+        margin-top: -15.6px;
+        margin-bottom: 60px;
+        background-color: #fff;
+        padding: 20px 20px 580px 20px;
+        height: 490px;
+        
+    }
+    
+    
+    .cs03-02 ol{
+        text-align: left;
+    }
+    
+    .cs04{
+        margin-top: -75.6px;
+        background-color: #fff;
+        padding: 120px 20px 0px 20px;
+        position: relative;
+        height: 360px;
+        z-index: -2;
+    }
+    
+    h3{
+        
+    }
+    
+    #solutionsH{
+        text-transform: uppercase;
+        text-align: left;
+        font-size: 3em;
+        width: 53%;
+        border-bottom: 5px solid #222;
+        font-family: nexaBold;
+    }
+    
+     #solutionsP{
+        text-align: left;
+        width: 53%;
+         font-size: 16px;
+    }
+    
+    .bs01-sol{
+        margin-top: -150px;
+        height: 270px;
+        box-shadow: 0px 1px 20px;
+        background-color: #c7c4bf
+    }
+    
+    .solOl li{
+        margin-bottom: 10px;
+    }
+    
+    .solOl li:nth-child(1){
+        font-family: nexaBold;
+    }
+    
+    .solOl li:nth-child(3){
+        font-family: nexaBold;
+    }
+    
+    .lineBox{
+        position: absolute;;
+        width: 5px;
+        top: 180px;
+        left: 52%;
+        height: 250px;
+        background-color: #222;
+    }
+    
+     .lineBox1{
+        position: absolute;;
+        width: 5px;
+        top: -20px;
+        left: 52%;
+        height: 200px;
+        background-color: #222;
+    }
+    
+    .lineBox2{
+        position: absolute;;
+        width: 5px;
+        top: 110px;
+        left: 52%;
+        height: 200px;
+        background-color: #222;
+    }
+    
+    
+    /*SOLUTION PAGE CODE*/
+    
+    /*CASH OFFER*/
+    
+    
+    .apply-content{
+        margin-top: -420px;
+    }
+    
+    .contact{
+        margin-top: 0px;
+        background-color: #fff;
+        padding-bottom: 20px;
+    }
+    
+    .contact-main{
+        margin-top: -420px;
+    }
+    
+    /*APPLY PAGE CODE*/
+    
+    /*TESTIMONIALS PAGE CODE*/
+    .headerimage-test{
+        background: url("img/photo-1445437303333-50e823122ca6.jpeg");
+        opacity: 1;
+      margin-left: 0px;
+        padding-bottom: 90px;
+      width:100%;
+        height: 300px;
+        margin-top: -20px;
+      background-size: 100% 100%;
+      position:relative;
+      z-index:;
+    }
+    
+    .bstest{
+        background-color: #eab42d;
+    }
+    
+    .small{
+        width: 70%;
+    }
+    
+    .colBlue{
+        color: #1f76b9;
+    }
+    
+    .testimonials-box{
+        width: 80%;
+        margin: auto;
+    }
+    
+    .section1-test{
+        margin-top: 0px;
+        background-color: #f2f2f2;
+    }
+    
+    .section0-test{
+        margin-top: 0px;
+        padding-top: 20px;
+    }
+    
+    .section2-test{
+        margin-top: 0px;
+         padding-top: 20px;
+    }
+    
+    .secTest{
+        background-color: #fff;
+        padding-bottom: 20px;
+    }
+    
+    .secTest h3{
+        margin-left: 170px;
+        margin-right: auto;
+        width: 50%;
+        text-align: right;
+        margin-top: 0px;
+        margin-bottom: 40px;
+        color: #fff;
+    }
+    
+    .icon{
+        text-align: center;
+        font-size: 4em;
+    }
+    
+    .heading-test{
+        margin-bottom: 40px;
+    }
+    
+    .tBox{
+       padding: 20px;
+        border: 2px solid #f2f2f2;
+        margin-bottom: 20px;
+        background-color: #f2f2f2;
+    }
+    
+    .dropBtn{
+        margin-bottom: 40px;
+        margin-left: 50px
+    }
+    
+    .back-box-test{
+        position: relative;
+        z-index: -5;
+        height: 1100px;
+        background-color: #fff;
+        top: -1069px;
+        margin-bottom: -1050px
+    }
+    
+    
+      
+    /*TESTIMONIALS PAGE CODE*/
+    
+    
+}
+
+
+
+@media(min-width:48em){
+    
+    /*HOME PAGE CODE*/
+    
+    .logo-main img{
+        width: 100%;
+        margin-top: 10px;
+        margin-left: -124px;
+    }
+    
+   /* .logo-main h4{
+        position: relative;
+        top: -165px;
+        left: -20px;
+        width: 50%;
+
+    }*/
+    
+    .bs01{
+        height: 57em;
+    }
+    
+    .bs03{
+        height: 30em;
+    }
+    
+    .bs04{
+        height: 33em;
+    }
+    
+    .bs02{
+        height: 32em;
+        background-size: 100%;
+        background-position: 0px -250px;
+    }
+    
+    .ch01{
+        margin-top: 80px;
+    }
+    
+    .content-home{
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    /*HOME PAGE CODE*/
+    
+     /*ABOUT US PAGE CODE*/
+    
+    .text-about{
+        width: 98%;
+        text-align: left;
+    }
+    
+    .navAbout{
+        
+        position: relative;
+        z-index: 4;
+    }
+    
+    .headerimage-ab{
+        background: url(img/urban-concret-1191619%20copy.jpg);
+        background-size: 100%;
+        padding-top: 60px;
+        margin-top: -70px;
+    }
+    
+    .bs01-ab{
+        margin-top: -68px;
+        color: #fff;
+        height: 33em;
+        
+    }
+    
+    .ca01{
+        margin-top: 20px;
+    }
+    
+    .ca02{
+        margin-top: 70px;
+    }
+    
+    .bs02-ab{
+        margin-top: 0.1px;
+        
+    }
+    
+    .ca04{
+        margin-top: 40px;
+    }
+    
+    .bs03-ab{
+        margin-top: 0.1px;
+        background: url(img/puzzles-1515717%20copy.jpg);
+        background-size: 100%;
+        background-position: center;
+        height: 10em;
+        color: #fff;
+    }
+    
+    .bs04-ab{
+        margin-top: 0.1px;
+        color: #fff;
+        height: 66em;
+    }
+    
+    .ca07{
+         margin-top: 60px;
+    }
+    
+    /*FAQ PAGE CODE*/
+    
+    .headerimage-faq{
+        background:url("img/photo-1463130456064-77fda7f96d6b.jpeg");
+        background-size: 100% 100%;
+        height: 300px;
+    }
+    
+    /*FAQ PAGE CODE*/
+    
+        /*TESTIMONIALS PAGE CODE*/
+    .headerimage-test{
+        background: url("img/photo-1445437303333-50e823122ca6.jpeg");
+        opacity: 1;
+      margin-left: 0px;
+        padding-bottom: 90px;
+      width:100%;
+        height: 410px;
+        margin-top: -20px;
+      background-size: 100% 100%;
+      position:relative;
+      z-index:;
+    }
+    
+    .bstest{
+        background-color: #eab42d;
+        height: 1200px;
+    }
+    
+    .small{
+        width: 70%;
+    }
+    
+    .colBlue{
+        color: #1f76b9;
+    }
+    
+    .testimonials-box{
+        width: 80%;
+        margin: auto;
+    }
+    
+    .section1-test{
+        margin-top: 0px;
+    }
+    
+    .section0-test{
+        margin-top: 0px;
+    }
+    
+    .section2-test{
+        margin-top: 0px;
+    }
+    
+    .section3-test{
+        margin-top: 0px;
+         padding-top: 20px;
+    }
+    
+    .secTest{
+       
+        padding-bottom: 20px;
+    }
+    
+    .secTest h3{
+        margin-left: 325px;
+        margin-right: auto;
+        width: 50%;
+        text-align: right;
+        margin-top: 0px;
+        margin-bottom: 40px;
+        color: #fff;
+    }
+    
+    .icon{
+        text-align: center;
+        font-size: 4em;
+    }
+    
+    .heading-test{
+        margin-bottom: 40px;
+    }
+    
+    .tBox{
+       padding: 20px;
+        border: 2px solid #f2f2f2;
+        margin-bottom: 20px;
+        
+    }
+    
+    .back-box-test{
+        position: relative;
+        z-index: -5;
+        height: 800px;
+        background-color: #fff;
+        top: -749px;
+        margin-bottom: -720px
+    }
+    
+      
+    /*TESTIMONIALS PAGE CODE*/
+    
+}
+
+@media(min-width:62em){
+    
+     /*HOME PAGE CODE*/
+    
+    .headerimage{
+        padding-bottom: 120px
+    }
+    
+    .logo-main{
+        width: 60%;
+        margin: auto;
+        color: #fff;
+    }
+    
+    .logo-main img{
+        width: 100%;
+        margin-top: 10px;
+        margin-left: -234px;
+    }
+    
+    
+    .bs01{
+        margin-top: -95px;
+        height: 67em;
+    }
+    
+    .bs02{
+        height: 34em;
+        background-size: 100%;
+        background-position: 0px -250px;
+    }
+    
+    .bs03{
+        height: 34em;
+    }
+    
+    .bs04{
+        height: 34em;
+    }
+    
+    .content-home{
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 70px;
+    }
+    
+    /*HOME PAGE CODE*/
+    
+    /*ABOUT US PAGE CODE*/
+    
+    .navAbout{
+        
+        position: relative;
+        z-index: 4;
+    }
+    
+    .headerimage-ab{
+        background: url(img/urban-concret-1191619%20copy.jpg);
+        background-size: 100%;
+        padding-top: 60px;
+        padding-bottom: 140px;
+        margin-top: -70px;
+    }
+    
+    .bs01-ab{
+        margin-top: -98px;
+        color: #fff;
+        height: 36em;
+        
+    }
+    
+    .ca01{
+        margin-top: 20px;
+    }
+    
+    .ca02{
+        margin-top: 90px;
+    }
+    
+    .bs02-ab{
+        margin-top: 0.1px;
+         
+    }
+    
+    .ca03{
+        
+    }
+    
+    .ca04{
+        margin-top: 40px;
+    }
+    
+    .bs03-ab{
+        margin-top: 0.1px;
+        background: url(img/puzzles-1515717%20copy.jpg);
+        background-size: 100%;
+        background-position: center;
+        height: 17em;
+        color: #fff;
+    }
+    
+    .bs04-ab{
+        margin-top: 0.1px;
+        
+       
+        color: #fff;
+    }
+    
+    .ca07{
+         margin-top: 60px;
+    }
+    
+    .content-about{
+        width: 60%;
+        color: #222;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    /*FAQ PAGE CODE*/
+    
+    .headerimage-faq{
+        background:url("img/photo-1463130456064-77fda7f96d6b.jpeg");
+        background-size: 100% 100%;
+        height: 400px;
+    }
+    
+    /*FAQ PAGE CODE*/
+    
+        /*SOLUTION PAGE CODE*/
+    
+    .headerimage-sol{
+         background:url("img/photo-1424298397478-4bd87a6a0f0c.jpeg");
+        background-size: 100% 200%;
+        background-position: -0px 560px;
+        height: 300px;
+    }
+    
+    .cs02-01{
+        margin-top: 70px;
+        width: 60%;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 5em;
+    }
+    
+    .cs02-02{
+        margin-top: 70px;
+        width: 75%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .cs02-01 h3{
+        font-size: 0.52em;
+    }
+    
+    .cs03-01{
+        margin-top: 70px;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 5em;
+    }
+    
+     .cs03-02{
+        margin-top: 70px;
+        width: 75%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    
+    .cs03-01 h3{
+        font-size: 0.52em;
+    }
+    
+    
+    .cs03-02 ol{
+        text-align: left;
+    }
+    
+    .cs04{
+        margin-top: -87.6px;
+        background-color: #fff;
+        padding: 120px 20px 0px 20px;
+        position: relative;
+        height: 460px;
+        z-index: -2;
+    }
+    
+    .cs04-01{
+        margin-top: 70px;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 5em;
+    }
+    
+    .cs04-01 h3{
+        font-size: 0.52em;
+    }
+    
+     .cs04-02{
+        margin-top: 70px;
+        width: 75%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    
+    .bs01-sol{
+        margin-top: -150px;
+        height: 370px;
+        box-shadow: 0px 1px 20px;
+        background-color: #c7c4bf
+    }
+    
+    .solOl{
+        
+    }
+    
+    .lineBox{
+        position: absolute;;
+        width: 5px;
+        top: 150px;
+        left: 52%;
+        height: 270px;
+        background-color: #222;
+    }
+    
+     .lineBox1{
+        position: absolute;;
+        width: 5px;
+        top: -0px;
+        left: 52%;
+        height: 260px;
+        background-color: #222;
+    }
+    
+    .lineBox2{
+        position: absolute;;
+        width: 5px;
+        top: 150px;
+        left: 52%;
+        height: 270px;
+        background-color: #222;
+    }
+    
+    
+    /*SOLUTION PAGE CODE*/
+    
+    /*TESTIMONIALS PAGE CODE*/
+    .headerimage-test{
+        background: url("img/photo-1445437303333-50e823122ca6.jpeg");
+        opacity: 1;
+      margin-left: 0px;
+        padding-bottom: 90px;
+      width:100%;
+        height: 520px;
+        margin-top: -20px;
+      background-size: 100% 100%;
+      position:relative;
+      z-index:;
+    }
+    
+    .bstest{
+        background-color: #eab42d;
+        height: 1000px;
+    }
+    
+    .small{
+        width: 70%;
+    }
+    
+    .colBlue{
+        color: #1f76b9;
+    }
+    
+    .testimonials-box{
+        width: 90%;
+        margin: auto;
+    }
+    
+    .section1-test{
+        margin-top: 0px;
+    }
+    
+    .section0-test{
+        margin-top: 0px;
+    }
+    
+    .section2-test{
+        margin-top: 0px;
+    }
+    
+    .section3-test{
+        margin-top: 0px;
+    }
+    
+    .secTest{
+       
+        padding-bottom: 20px;
+    }
+    
+    .secTest h3{
+        margin-left: 655px;
+        margin-right: auto;
+        width: 23%;
+        text-align: right;
+        margin-top: 0px;
+        margin-bottom: 40px;
+        color: #fff;
+    }
+    
+    .icon{
+        text-align: center;
+        font-size: 4em;
+    }
+    
+    .heading-test{
+        margin-bottom: 40px;
+    }
+    
+    .tBox{
+       padding: 20px;
+        border: 2px solid #f2f2f2;
+        margin-bottom: 20px;
+        
+    }
+    
+      
+    /*TESTIMONIALS PAGE CODE*/
+    
+    
+}
+
+
+@media(min-width:75em){
+    
+      @-moz-document url-prefix() { 
+        
+    }
+
+    
+    .navbar{
+        font-size: 0.8em;
+    }
+    
+     /*HOME PAGE CODE*/
+    
+    .headerimage{
+        padding-bottom: 160px
+    }
+    
+    .logo-main{
+        width: 50%;
+        margin: auto;
+        color: #fff;
+    }
+    
+    .logo-main img{
+        width: 100%;
+        margin-top: 10px;
+        margin-left: -354px;
+    }
+    
+    .logo-main h4{
+        position: relative;
+        top: -155px;
+        left: -255px;
+        width: 50%;
+
+    }
+    .bs01{
+        margin-top: -120px;
+        height: 69em;
+    }
+    
+    .ch01{
+        position: relative;
+        top: -15px;
+        font-size: 1.2em;
+    }
+    
+    .ch02 p:first-child{
+        margin-top: -70px;
+    }
+    
+    .bs02{
+        height: 30em;
+        background-size: 100%;
+        background-position: 0px -250px;
+    }
+    
+    .ch03{
+        position: relative;
+        top: -35px;
+        font-size: 1.2em;
+    }
+    
+    .bs03{
+        height: 40em;
+    }
+    
+    .bs04{
+        height: 45em;
+    }
+    
+    .ch04{
+        position: relative;
+        top: -35px;
+        font-size: 1.2em;
+    }
+    
+    .content-home{
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 90px;
+    }
+    
+    .footer{
+        margin-top: 160px;
+    }
+    
+    /*HOME PAGE CODE*/
+    
+    /*ABOUT US PAGE CODE*/
+    
+    .headerimage-ab{
+        background: url(img/urban-concret-1191619%20copy.jpg);
+        background-size: 100%;
+        padding-top: 60px;
+        padding-bottom: 140px;
+        margin-top: -70px;
+        height: 370px;
+    }
+    
+    .ca01{
+        position: relative;
+        top: -5px;
+        font-size: 1.2em;
+    }
+    
+    .ca02{
+        position: relative;
+        top: -35px;
+        font-size: 1.2em;
+    }
+    
+    
+    .ca03{
+        position: relative;
+        top: -5px;
+        font-size: 1.2em;
+    }
+    
+    .ca05{
+        position: relative;
+        top: -35px;
+        font-size: 1.2em;
+    }
+    
+    .ca04{
+        position: relative;
+        top: -35px;
+        font-size: 1.2em;
+    }
+    
+    .ca06{
+        position: relative;
+        
+        font-size: 1.2em;
+    }
+    
+    .ca07{
+        position: relative;
+        top: 5px;
+        font-size: 1.2em;
+    }
+    
+            /*SOLUTION PAGE CODE*/
+    
+    .headerimage-sol{
+         background:url("img/photo-1424298397478-4bd87a6a0f0c.jpeg");
+        background-size: 100% 200%;
+        background-position: -0px 560px;
+        height: 350px;
+    }
+    
+    @-moz-document url-prefix() { 
+  .solOl{
+        margin-top: -10px;
+    }
+}
+    
+    .solOl{
+        margin-top: -10px;
+    }
+    
+    .bs01-sol{
+        margin-top: 00px;
+    }
+    
+    .cs02-01{
+        margin-top: 70px;
+        width: 60%;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 5em;
+    }
+    
+    .cs02-02{
+        margin-top: 70px;
+        width: 75%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .cs02-01 h3{
+        font-size: 0.52em;
+    }
+    
+    .cs03-01{
+        margin-top: 70px;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 5em;
+    }
+    
+     .cs03-02{
+        margin-top: 70px;
+        width: 75%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    
+    .cs03-01 h3{
+        font-size: 0.52em;
+    }
+    
+    
+    .cs03-02 ol{
+        text-align: left;
+    }
+    
+    .cs04{
+        margin-top: -109.6px;
+        background-color: #fff;
+        padding: 120px 20px 0px 20px;
+        position: relative;
+        height: 580px;
+        z-index: -2;
+    }
+    
+    .cs04-01{
+        margin-top: 140px;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 5em;
+    }
+    
+    .cs04-01 h3{
+        font-size: 0.52em;
+    }
+    
+     .cs04-02{
+        margin-top: 170px;
+        width: 75%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    
+    .bs01-sol{
+        margin-top: -170px;
+        height: 370px;
+        box-shadow: 0px 1px 20px;
+        background-color: #c7c4bf
+    }
+    
+    .solOl{
+        
+    }
+    
+    .lineBox{
+        position: absolute;;
+        width: 5px;
+        top: 150px;
+        left: 52%;
+        height: 270px;
+        background-color: #222;
+    }
+    
+     .lineBox1{
+        position: absolute;;
+        width: 5px;
+        top: -0px;
+        left: 52%;
+        height: 260px;
+        background-color: #222;
+    }
+    
+    .lineBox2{
+        position: absolute;;
+        width: 5px;
+        top: 190px;
+        left: 52%;
+        height: 310px;
+        background-color: #222;
+    }
+    
+    
+    /*SOLUTION PAGE CODE*/
+    
+    /*TESTIMONIALS PAGE CODE*/
+    .headerimage-test{
+        background: url("img/photo-1445437303333-50e823122ca6.jpeg");
+        opacity: 1;
+      margin-left: 0px;
+        padding-bottom: 90px;
+      width:100%;
+        height: 590px;
+        margin-top: -20px;
+      background-size: 100% 100%;
+      position:relative;
+      z-index:;
+    }
+    
+    .bstest{
+        background-color: #eab42d;
+        height: 900px;
+        margin-bottom: 20px;
+    }
+    
+    .small{
+        width: 70%;
+    }
+    
+    .colBlue{
+        color: #1f76b9;
+    }
+    
+    .testimonials-box{
+        width: 90%;
+        margin: auto;
+    }
+    
+    .section1-test{
+        margin-top: 0px;
+    }
+    
+    .section0-test{
+        margin-top: 0px;
+    }
+    
+    .section2-test{
+        margin-top: 0px;
+    }
+    
+    .section3-test{
+        margin-top: 0px;
+    }
+    
+    .secTest{
+        padding-bottom: 20px;
+    }
+    
+    .secTest h3{
+        margin-left: 855px;
+        margin-right: auto;
+        width: 20%;
+        text-align: right;
+        margin-top: 0px;
+        margin-bottom: 40px;
+        color: #fff;
+    }
+    
+    .icon{
+        text-align: center;
+        font-size: 4em;
+    }
+    
+    .heading-test{
+        margin-bottom: 40px;
+    }
+    
+    .tBox{
+       padding: 20px;
+        border: 2px solid #f2f2f2;
+        margin-bottom: 20px;
+        
+    }
+    
+      
+    /*TESTIMONIALS PAGE CODE*/
+    
+}
+
+@media(min-width:95em){
+    
+      /*HOME PAGE CODE*/
+    
+    .headerimage{
+        padding-bottom: 160px
+    }
+    
+    .logo-main{
+        width: 50%;
+        margin: auto;
+        color: #fff;
+    }
+    
+    .logo-main img{
+        width: 100%;
+        margin-top: 10px;
+    }
+    
+    .logo-main h3{
+        margin-top: -10px;   
+    }
+    
+    .bs01{
+        margin-top: -120px;
+       
+    }
+    
+    .ch01{
+        position: relative;
+        top: -15px;
+        font-size: 1.2em;
+    }
+    
+    .bs02{
+        
+        background-size: 100%;
+        background-position: 0px -250px;
+        opacity: 0.95;
+    }
+    
+    .ch03{
+        position: relative;
+        top: -35px;
+        font-size: 1.2em;
+    }
+    
+    .bs03{
+       
+    }
+    
+    .bs04{
+        
+    }
+    
+    .ch04{
+        position: relative;
+        top: -35px;
+        font-size: 1.2em;
+    }
+    
+    .content-home{
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 90px;
+    }
+    
+    .footer{
+        margin-top: 160px;
+    }
+    
+    /*HOME PAGE CODE*/
+    
+}
+
